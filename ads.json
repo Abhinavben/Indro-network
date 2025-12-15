@@ -1,0 +1,30 @@
+[
+    {
+        "category": "gym",
+        "ad_text": "💪 Special Offer: Get 20% Off on Whey Protein!",
+        "ad_link": "https://amazon.in/protein",
+        "bg_color": "#fff1f2",
+        "text_color": "#be123c"
+    },
+    {
+        "category": "tech",
+        "ad_text": "💻 Best Hosting Deals for Startups - Check Now",
+        "ad_link": "https://hostinger.in",
+        "bg_color": "#eff6ff",
+        "text_color": "#1d4ed8"
+    },
+    {
+        "category": "fashion",
+        "ad_text": "👟 New Sneaker Arrival - Flat 30% Off",
+        "ad_link": "https://nike.com",
+        "bg_color": "#fdf4ff",
+        "text_color": "#86198f"
+    },
+    {
+        "category": "cafe",
+        "ad_text": "☕ Premium Coffee Beans - Bulk Orders Available",
+        "ad_link": "https://bluetokai.com",
+        "bg_color": "#fffbeb",
+        "text_color": "#b45309"
+    }
+]
