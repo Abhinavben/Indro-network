@@ -1,30 +1,37 @@
 [
     {
-        "category": "gym",
-        "ad_text": "💪 Special Offer: Get 20% Off on Whey Protein!",
-        "ad_link": "https://amazon.in/protein",
-        "bg_color": "#fff1f2",
-        "text_color": "#be123c"
-    },
-    {
         "category": "tech",
-        "ad_text": "💻 Best Hosting Deals for Startups - Check Now",
+        "ad_text": "💻 Best Cloud Hosting for Startups - ₹99/mo",
         "ad_link": "https://hostinger.in",
         "bg_color": "#eff6ff",
         "text_color": "#1d4ed8"
     },
     {
+        "category": "gym",
+        "ad_text": "💪 MuscleBlaze Whey Protein - Flat 30% Off",
+        "ad_link": "https://muscleblaze.com",
+        "bg_color": "#fff1f2",
+        "text_color": "#be123c"
+    },
+    {
         "category": "fashion",
-        "ad_text": "👟 New Sneaker Arrival - Flat 30% Off",
-        "ad_link": "https://nike.com",
+        "ad_text": "👟 Nike & Adidas Sneakers - End of Season Sale",
+        "ad_link": "https://myntra.com",
         "bg_color": "#fdf4ff",
         "text_color": "#86198f"
     },
     {
         "category": "cafe",
-        "ad_text": "☕ Premium Coffee Beans - Bulk Orders Available",
-        "ad_link": "https://bluetokai.com",
+        "ad_text": "🍔 Hungry? Get 50% Off on First Zomato Order",
+        "ad_link": "https://zomato.com",
         "bg_color": "#fffbeb",
         "text_color": "#b45309"
+    },
+    {
+        "category": "realestate",
+        "ad_text": "🏠 Luxury Flats in Patna - EMI starts @ ₹15k",
+        "ad_link": "https://housing.com",
+        "bg_color": "#ecfccb",
+        "text_color": "#3f6212"
     }
 ]
