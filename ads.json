@@ -9,8 +9,6 @@
         },
         "app_code": ""
     },
-    
-    /* --- GYM BATCHES (GYM_1 to GYM_5) --- */
     {
         "key": "gym_1",
         "ad_config": {
@@ -19,7 +17,7 @@
             "bg": "#fff1f2",
             "color": "#be123c"
         },
-        "app_code": "<div style='padding:25px; background:#fff; border-radius:20px; border:1px solid #fda4af; text-align:center;'> <h3 style='color:#be123c; margin-bottom:10px;'>⚖️ Quick BMI Check</h3> <p style='font-size:13px; color:#525252;'>A simple fitness tool demo.</p> <button onclick='alert(\"BMI Calculator App (Demo)\")' style='background:#be123c; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:15px; cursor:pointer; font-weight:bold;'>Check BMI</button> </div>"
+        "app_code": "<div style='padding:25px; background:#fff; border-radius:20px; border:1px solid #fda4af; text-align:center; box-shadow:0 10px 30px rgba(0,0,0,0.05);'> <h3 style='color:#be123c; margin-bottom:10px;'>⚖️ Quick BMI Check</h3> <p style='font-size:13px; color:#525252;'>A simple fitness tool demo.</p> <button onclick='alert(\"BMI Calculator App (Demo)\")' style='background:#be123c; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:15px; cursor:pointer; font-weight:bold;'>Check BMI</button> </div>"
     },
     {
         "key": "gym_2",
@@ -59,10 +57,8 @@
             "bg": "#fff1f2",
             "color": "#be123c"
         },
-        "app_code": "<div style='padding:25px; background:#fff; border-radius:20px; border:1px solid #fda4af; text-align:center;'> <h3 style='color:#be123c; margin-bottom:10px;'>📊 Progress Tracker</h3> <p style='font-size:13px; color:#525252;'>Log your last weight and reps.</p> <button onclick='alert(\"Log successful! - Demo App\")' style='background:#be123c; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:15px; cursor:pointer; font-weight:bold;'>Log Progress</button> </div>"
+        "app_code": "<div style='padding:25px; background:#fff; border-radius:20px; border:1px solid #fda4af; text-align:center;'> <h3 style='color:#be123c; margin-bottom:10px;'>📊 Progress Tracker</h3> <p style='font-size:13px; color:#525252;'>Log your last weight and reps.</p> <button onclick='alert(\"Log successful! - Demo App\")' style='background:#be123c; color:white; padding:10px 25px; border-none; border-radius:50px; margin-top:15px; cursor:pointer; font-weight:bold;'>Log Progress</button> </div>"
     },
-
-    /* --- CAFE BATCHES (CAFE_1 to CAFE_5) --- */
     {
         "key": "cafe_1",
         "ad_config": {
@@ -91,7 +87,7 @@
             "bg": "#fee2e2",
             "color": "#b91c1c"
         },
-        "app_code": "<div style='padding:20px; background:#fee2e2; border-radius:15px; border:1px solid #f87171; text-align:center;'> <h3 style='color:#b91c1c;'>🌶️ Daily Special Menu</h3> <p style='font-size:13px; color:#525252;'>See what's fresh today.</p> <button style='background:#b91c1c; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:10px; cursor:pointer;'>View Menu</button> </div>"
+        "app_code": "<div style='padding:20px; background:#fee2e2; border-radius:15px; border:1px solid #f87171; text-align:center;'> <h3 style='color:#b91c1c;'>🌶️ Daily Special Menu</h3> <p style='font-size:13px; color:#525252;'>See what's fresh today.</p> <button style='background:#b91c1c; color:white; padding:10px 25px; border-none; border-radius:50px; margin-top:10px; cursor:pointer;'>View Menu</button> </div>"
     },
     {
         "key": "cafe_4",
@@ -101,7 +97,7 @@
             "bg": "#fce7f3",
             "color": "#be185d"
         },
-        "app_code": "<div style='padding:20px; background:#fce7f3; border-radius:15px; border:1px dashed #f9a8d4; text-align:center;'> <h3 style='color:#be185d;'>🍦 Flavor Poll</h3> <p style='font-size:13px; color:#525252;'>Vote for the next flavor.</p> <button style='background:#be185d; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:10px; cursor:pointer;'>Vote Now</button> </div>"
+        "app_code": "<div style='padding:20px; background:#fce7f3; border-radius:15px; border:1px dashed #f9a8d4; text-align:center;'> <h3 style='color:#be185d;'>🍦 Flavor Poll</h3> <p style='font-size:13px; color:#525252;'>Vote for the next flavor.</p> <button style='background:#be185d; color:white; padding:10px 25px; border-none; border-radius:50px; margin-top:10px; cursor:pointer;'>Vote Now</button> </div>"
     },
     {
         "key": "cafe_5",
@@ -113,8 +109,6 @@
         },
         "app_code": "<div style='padding:20px; background:#e0f2f1; border-radius:15px; border:1px solid #4bc0c0; text-align:center;'> <h3 style='color:#0f766e;'>🌿 Calorie Counter</h3> <p style='font-size:13px; color:#525252;'>Check the nutritional value of your meal.</p> <button style='background:#0f766e; color:white; padding:10px 25px; border-none; border-radius:50px; margin-top:10px; cursor:pointer;'>Check Calories</button> </div>"
     },
-
-    /* --- TECH BATCHES (TECH_1 to TECH_5) --- */
     {
         "key": "tech_1",
         "ad_config": {
@@ -143,7 +137,7 @@
             "bg": "#eef2ff",
             "color": "#4338ca"
         },
-        "app_code": "<div style='padding:20px; background:#eef2ff; border-radius:15px; border:1px dashed #a5b4fc; text-align:center;'> <h3 style='color:#4338ca;'>⏱️ Time Zone Converter</h3> <p style='font-size:13px; color:#525252;'>Quickly check time differences.</p> <button style='background:#4338ca; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:5px;'>Open Tool</button> </div>"
+        "app_code": "<div style='padding:20px; background:#eef2ff; border-radius:15px; border:1px dashed #a5b4fc; text-align:center;'> <h3 style='color:#4338ca;'>⏱️ Time Zone Converter</h3> <p style='font-size:13px; color:#525252;'>Quickly check time differences.</p> <button style='background:#4338ca; color:white; padding:8px 20px; border-none; border-radius:5px; margin-top:5px;'>Open Tool</button> </div>"
     },
     {
         "key": "tech_4",
@@ -165,8 +159,6 @@
         },
         "app_code": "<div style='padding:20px; background:#fff7ed; border-radius:15px; border:1px dashed #fdbd74; text-align:center;'> <h3 style='color:#9a3412;'>🔗 URL Shortener</h3> <input type='text' placeholder='Paste Long URL' style='padding:8px; border:1px solid #ddd; border-radius:5px; width:90%; margin-top:10px;'> <button style='background:#9a3412; color:white; padding:8px 20px; border-none; border-radius:5px; margin-top:10px; cursor:pointer;'>Shorten</button> </div>"
     },
-
-    /* --- REAL ESTATE BATCHES (ADS ONLY) --- */
     {
         "key": "realestate_1",
         "ad_config": { "text": "🏠 Batch 1: Housing.com - Luxury Flats Starting @ ₹45 Lakhs", "link": "https://housing.com", "bg": "#ecfccb", "color": "#3f6212" }, "app_code": ""
@@ -187,8 +179,6 @@
         "key": "realestate_5",
         "ad_config": { "text": "🚜 Batch 5: Agricultural Land Investments", "link": "https://land.com", "bg": "#fae8ff", "color": "#7e22ce" }, "app_code": ""
     },
-
-    /* --- FASHION BATCHES (ADS ONLY) --- */
     {
         "key": "fashion_1",
         "ad_config": { "text": "👟 Batch 1: Myntra End of Reason Sale - 50-80% Off", "link": "https://myntra.com", "bg": "#fdf4ff", "color": "#86198f" }, "app_code": ""
@@ -209,8 +199,6 @@
         "key": "fashion_5",
         "ad_config": { "text": "💍 Batch 5: Tanishq Gold Jewelry Offers", "link": "https://tanishq.com", "bg": "#fff1f2", "color": "#be123c" }, "app_code": ""
     },
-
-    /* --- OTHER BATCHES (ADS ONLY) --- */
     {
         "key": "other_1",
         "ad_config": { "text": "🛒 Batch 1: Amazon Great Indian Festival - Shop Now", "link": "https://amazon.in", "bg": "#fff7ed", "color": "#c2410c" }, "app_code": ""
@@ -232,4 +220,3 @@
         "ad_config": { "text": "🔌 Batch 5: Local Electrician Services - Book Now", "link": "https://services.com", "bg": "#f7fee7", "color": "#3f6212" }, "app_code": ""
     }
         ]
-    
