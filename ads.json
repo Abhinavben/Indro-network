@@ -1,37 +1,33 @@
 [
     {
-        "category": "tech",
-        "ad_text": "💻 Best Cloud Hosting for Startups - ₹99/mo",
-        "ad_link": "https://hostinger.in",
-        "bg_color": "#eff6ff",
-        "text_color": "#1d4ed8"
+        "key": "default",
+        "ad_config": {
+            "text": "🚀 Powered by Indro Network",
+            "link": "https://google.com",
+            "bg": "#111",
+            "color": "#fff"
+        },
+        "app_code": ""
     },
     {
-        "category": "gym",
-        "ad_text": "💪 MuscleBlaze Whey Protein - Flat 30% Off",
-        "ad_link": "https://muscleblaze.com",
-        "bg_color": "#fff1f2",
-        "text_color": "#be123c"
+        "key": "gym_basic",
+        "ad_config": {
+            "text": "💪 MuscleBlaze Protein - Flat 30% Off",
+            "link": "https://muscleblaze.com",
+            "bg": "#fff1f2",
+            "color": "#be123c"
+        },
+        "app_code": ""
     },
     {
-        "category": "fashion",
-        "ad_text": "👟 Nike & Adidas Sneakers - End of Season Sale",
-        "ad_link": "https://myntra.com",
-        "bg_color": "#fdf4ff",
-        "text_color": "#86198f"
-    },
-    {
-        "category": "cafe",
-        "ad_text": "🍔 Hungry? Get 50% Off on First Zomato Order",
-        "ad_link": "https://zomato.com",
-        "bg_color": "#fffbeb",
-        "text_color": "#b45309"
-    },
-    {
-        "category": "realestate",
-        "ad_text": "🏠 Luxury Flats in Patna - EMI starts @ ₹15k",
-        "ad_link": "https://housing.com",
-        "bg_color": "#ecfccb",
-        "text_color": "#3f6212"
+        "key": "cafe_special",
+        "ad_config": {
+            "text": "🍔 Order on Zomato & Get 50% Off",
+            "link": "https://zomato.com",
+            "bg": "#fffbeb",
+            "color": "#b45309"
+        },
+        "app_code": "<div style='background:#ecfccb; padding:15px; margin-top:20px; border-radius:10px; text-align:center;'><h3>🥗 Special Salad Menu</h3><p>Click below to order directly on WhatsApp.</p><button onclick='window.open(\"https://wa.me/?text=I want Salad\", \"_blank\")' style='background:#4d7c0f; color:white; padding:10px 20px; border:none; border-radius:5px; margin-top:10px;'>Order Now</button></div>"
     }
 ]
+
