@@ -10,7 +10,7 @@
         "app_code": ""
     },
     
-    /* --- GYM BATCHES (Different Ads & Apps) --- */
+    /* --- GYM BATCHES (GYM_1 to GYM_5) --- */
     {
         "key": "gym_1",
         "ad_config": {
@@ -31,9 +31,38 @@
         },
         "app_code": "<div style='padding:20px; background:#f0fdf4; border-radius:15px; border:1px dashed #22c55e; text-align:center;'><h3>🥗 Diet Chart Generator</h3><p style='font-size:13px; color:#525252;'>Get your personalized diet plan via WhatsApp.</p><button style='background:#15803d; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:5px;'>Download Plan</button></div>"
     },
-    // gym_3, gym_4, gym_5 remain configured with ad_config only (same as gym_2)
+    {
+        "key": "gym_3",
+        "ad_config": {
+            "text": "🍎 Batch 3: HealthifyMe App Subscription Offer",
+            "link": "https://healthifyme.com",
+            "bg": "#fefce8",
+            "color": "#a16207"
+        },
+        "app_code": "<div style='padding:20px; background:#fefce8; border-radius:15px; border:1px dashed #fbbf24; text-align:center;'><h3>🕒 Personal Trainer Booking</h3><p style='font-size:13px; color:#525252;'>Book a free consultation now.</p><button style='background:#a16207; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:5px;'>Book Now</button></div>"
+    },
+    {
+        "key": "gym_4",
+        "ad_config": {
+            "text": "👕 Batch 4: Nike Training Gear Discount",
+            "link": "https://nike.com",
+            "bg": "#f0fdf4",
+            "color": "#15803d"
+        },
+        "app_code": "<div style='padding:20px; background:#f0fdf4; border-radius:15px; border:1px dashed #22c55e; text-align:center;'><h3>⏱️ Workout Timer</h3><p style='font-size:13px; color:#525252;'>Start your 30 minute session.</p><button style='background:#15803d; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:5px;'>Start Timer</button></div>"
+    },
+    {
+        "key": "gym_5",
+        "ad_config": {
+            "text": "💸 Batch 5: Bulk Supplements Store - Flat 40% Off",
+            "link": "https://supplements.com",
+            "bg": "#fff1f2",
+            "color": "#be123c"
+        },
+        "app_code": "<div style='padding:25px; background:#fff; border-radius:20px; border:1px solid #fda4af; text-align:center;'> <h3 style='color:#be123c; margin-bottom:10px;'>📊 Progress Tracker</h3> <p style='font-size:13px; color:#525252;'>Log your last weight and reps.</p> <button onclick='alert(\"Log successful! - Demo App\")' style='background:#be123c; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:15px; cursor:pointer; font-weight:bold;'>Log Progress</button> </div>"
+    },
 
-    /* --- CAFE BATCHES (Different Ads & Apps) --- */
+    /* --- CAFE BATCHES (CAFE_1 to CAFE_5) --- */
     {
         "key": "cafe_1",
         "ad_config": {
@@ -54,9 +83,38 @@
         },
         "app_code": "<div style='padding:20px; background:#d1fae5; border-radius:15px; border:1px dashed #10b981; text-align:center;'> <h3 style='color:#065f46;'>⭐ Loyalty Card Check</h3> <p style='font-size:13px; color:#525252;'>Check your loyalty points instantly.</p> <button style='background:#065f46; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:10px; cursor:pointer;'>Check Points</button> </div>"
     },
-    // cafe_3, cafe_4, cafe_5 remain configured with ad_config only (same as cafe_2)
+    {
+        "key": "cafe_3",
+        "ad_config": {
+            "text": "🍕 Batch 3: Domino's Pizza - Buy 1 Get 1 Free",
+            "link": "https://dominos.co.in",
+            "bg": "#fee2e2",
+            "color": "#b91c1c"
+        },
+        "app_code": "<div style='padding:20px; background:#fee2e2; border-radius:15px; border:1px solid #f87171; text-align:center;'> <h3 style='color:#b91c1c;'>🌶️ Daily Special Menu</h3> <p style='font-size:13px; color:#525252;'>See what's fresh today.</p> <button style='background:#b91c1c; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:10px; cursor:pointer;'>View Menu</button> </div>"
+    },
+    {
+        "key": "cafe_4",
+        "ad_config": {
+            "text": "🍦 Batch 4: Baskin Robbins - Ice Cream Discount",
+            "link": "https://baskinrobbins.in",
+            "bg": "#fce7f3",
+            "color": "#be185d"
+        },
+        "app_code": "<div style='padding:20px; background:#fce7f3; border-radius:15px; border:1px dashed #f9a8d4; text-align:center;'> <h3 style='color:#be185d;'>🍦 Flavor Poll</h3> <p style='font-size:13px; color:#525252;'>Vote for the next flavor.</p> <button style='background:#be185d; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:10px; cursor:pointer;'>Vote Now</button> </div>"
+    },
+    {
+        "key": "cafe_5",
+        "ad_config": {
+            "text": "🍹 Batch 5: Fresh Juice & Smoothies - Get 1 Free",
+            "link": "https://juice.com",
+            "bg": "#e0f2f1",
+            "color": "#0f766e"
+        },
+        "app_code": "<div style='padding:20px; background:#e0f2f1; border-radius:15px; border:1px solid #4bc0c0; text-align:center;'> <h3 style='color:#0f766e;'>🌿 Calorie Counter</h3> <p style='font-size:13px; color:#525252;'>Check the nutritional value of your meal.</p> <button style='background:#0f766e; color:white; padding:10px 25px; border-none; border-radius:50px; margin-top:10px; cursor:pointer;'>Check Calories</button> </div>"
+    },
 
-    /* --- TECH BATCHES (Different Ads & Apps) --- */
+    /* --- TECH BATCHES (TECH_1 to TECH_5) --- */
     {
         "key": "tech_1",
         "ad_config": {
@@ -65,7 +123,7 @@
             "bg": "#eff6ff",
             "color": "#1d4ed8"
         },
-        "app_code": "<div style='padding:20px; background:#eff6ff; border-radius:15px; border:1px solid #bfdbfe; text-align:center;'> <h3 style='color:#1d4ed8;'>⚡ Server Status</h3> <div style='margin:15px auto; display:inline-flex; align-items:center; gap:10px; background:#dcfce7; padding:8px 20px; border-radius:50px; color:#15803d; font-weight:bold; border:1px solid #86efac;'> <div style='width:12px; height:12px; background:#22c55e; border-radius:50%; box-shadow:0 0 10px #22c55e;'></div> All Systems Operational </div> </div>"
+        "app_code": "<div style='padding:20px; background:#eff6ff; border-radius:15px; border:1px solid #bfdbfe; text-align:center;'> <h3 style='color:#1d4ed8;'>⚡ Server Status</h3> <div style='margin:15px auto; display:inline-flex; align-items:center; gap:10px; background:#dcfce7; padding:8px 20px; border-radius:50px; color:#15803d; font-weight:bold; border:1px solid #86efac;'> <div style='width:12px; height:12px; background:#22c55e; border-radius:50%; box-shadow:0 0 10px #22c55e;'></div> All Systems Operational </div> <p style='margin-top:10px; font-size:12px; color:#64748b;'>Live check successful.</p> </div>"
     },
     {
         "key": "tech_2",
@@ -77,8 +135,101 @@
         },
         "app_code": "<div style='padding:20px; background:#faf5ff; border-radius:15px; border:1px dashed #a78bfa; text-align:center;'> <h3 style='color:#7e22ce;'>🔑 API Key Validator</h3> <input type='text' placeholder='Enter API Key' style='padding:8px; border:1px solid #ddd; border-radius:5px; width:90%; margin-top:10px;'> <button style='background:#7e22ce; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:10px; cursor:pointer;'>Validate</button> </div>"
     },
-    // tech_3, tech_4, tech_5 remain configured with ad_config only (same as tech_2)
-    
-    /* (realestate, fashion, other batches remain with ads only) */
+    {
+        "key": "tech_3",
+        "ad_config": {
+            "text": "🖥️ Batch 3: Lenovo Laptops - Business Discount",
+            "link": "https://lenovo.com",
+            "bg": "#eef2ff",
+            "color": "#4338ca"
+        },
+        "app_code": "<div style='padding:20px; background:#eef2ff; border-radius:15px; border:1px dashed #a5b4fc; text-align:center;'> <h3 style='color:#4338ca;'>⏱️ Time Zone Converter</h3> <p style='font-size:13px; color:#525252;'>Quickly check time differences.</p> <button style='background:#4338ca; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:5px;'>Open Tool</button> </div>"
+    },
+    {
+        "key": "tech_4",
+        "ad_config": {
+            "text": "📚 Batch 4: Udemy Online Courses - 90% Off Sale",
+            "link": "https://udemy.com",
+            "bg": "#f0fdf4",
+            "color": "#14532d"
+        },
+        "app_code": "<div style='padding:20px; background:#f0fdf4; border-radius:15px; border:1px dashed #4ade80; text-align:center;'> <h3 style='color:#14532d;'>🔢 Unit Converter</h3> <p style='font-size:13px; color:#525252;'>Convert data sizes and speed.</p> <button style='background:#14532d; color:white; padding:8px 20px; border-none; border-radius:5px; margin-top:5px;'>Launch</button> </div>"
+    },
+    {
+        "key": "tech_5",
+        "ad_config": {
+            "text": "📧 Batch 5: Zoho Mail - Business Email Free Trial",
+            "link": "https://zoho.com",
+            "bg": "#fff7ed",
+            "color": "#9a3412"
+        },
+        "app_code": "<div style='padding:20px; background:#fff7ed; border-radius:15px; border:1px dashed #fdbd74; text-align:center;'> <h3 style='color:#9a3412;'>🔗 URL Shortener</h3> <input type='text' placeholder='Paste Long URL' style='padding:8px; border:1px solid #ddd; border-radius:5px; width:90%; margin-top:10px;'> <button style='background:#9a3412; color:white; padding:8px 20px; border-none; border-radius:5px; margin-top:10px; cursor:pointer;'>Shorten</button> </div>"
+    },
+
+    /* --- REAL ESTATE BATCHES (ADS ONLY) --- */
+    {
+        "key": "realestate_1",
+        "ad_config": { "text": "🏠 Batch 1: Housing.com - Luxury Flats Starting @ ₹45 Lakhs", "link": "https://housing.com", "bg": "#ecfccb", "color": "#3f6212" }, "app_code": ""
+    },
+    {
+        "key": "realestate_2",
+        "ad_config": { "text": "🏦 Batch 2: HDFC Home Loan - Low Interest Rates", "link": "https://hdfc.com", "bg": "#e0f2f1", "color": "#047876" }, "app_code": ""
+    },
+    {
+        "key": "realestate_3",
+        "ad_config": { "text": "🏗️ Batch 3: Commercial Property Deals - Office Space", "link": "https://office.com", "bg": "#f0f9ff", "color": "#075985" }, "app_code": ""
+    },
+    {
+        "key": "realestate_4",
+        "ad_config": { "text": "🏙️ Batch 4: Rental Listings - Find Apartments Fast", "link": "https://rental.com", "bg": "#fefce8", "color": "#a16207" }, "app_code": ""
+    },
+    {
+        "key": "realestate_5",
+        "ad_config": { "text": "🚜 Batch 5: Agricultural Land Investments", "link": "https://land.com", "bg": "#fae8ff", "color": "#7e22ce" }, "app_code": ""
+    },
+
+    /* --- FASHION BATCHES (ADS ONLY) --- */
+    {
+        "key": "fashion_1",
+        "ad_config": { "text": "👟 Batch 1: Myntra End of Reason Sale - 50-80% Off", "link": "https://myntra.com", "bg": "#fdf4ff", "color": "#86198f" }, "app_code": ""
+    },
+    {
+        "key": "fashion_2",
+        "ad_config": { "text": "⌚ Batch 2: Titan Watches - New Collection", "link": "https://titan.co.in", "bg": "#fee2e2", "color": "#b91c1c" }, "app_code": ""
+    },
+    {
+        "key": "fashion_3",
+        "ad_config": { "text": "👔 Batch 3: Formal Wear Discount - Peter England", "link": "https://peter.com", "bg": "#fff7ed", "color": "#9a3412" }, "app_code": ""
+    },
+    {
+        "key": "fashion_4",
+        "ad_config": { "text": "🕶️ Batch 4: Ray-Ban Sunglasses - Up to 40% Off", "link": "https://rayban.com", "bg": "#f0fdf4", "color": "#166534" }, "app_code": ""
+    },
+    {
+        "key": "fashion_5",
+        "ad_config": { "text": "💍 Batch 5: Tanishq Gold Jewelry Offers", "link": "https://tanishq.com", "bg": "#fff1f2", "color": "#be123c" }, "app_code": ""
+    },
+
+    /* --- OTHER BATCHES (ADS ONLY) --- */
+    {
+        "key": "other_1",
+        "ad_config": { "text": "🛒 Batch 1: Amazon Great Indian Festival - Shop Now", "link": "https://amazon.in", "bg": "#fff7ed", "color": "#c2410c" }, "app_code": ""
+    },
+    {
+        "key": "other_2",
+        "ad_config": { "text": "✈️ Batch 2: MakeMyTrip Flight Deals - Flat ₹500 Off", "link": "https://makemytrip.com", "bg": "#f0f9ff", "color": "#075985" }, "app_code": ""
+    },
+    {
+        "key": "other_3",
+        "ad_config": { "text": "🏥 Batch 3: Apollo Hospitals - Health Checkup Package", "link": "https://apollo.com", "bg": "#fee2e2", "color": "#b91c1c" }, "app_code": ""
+    },
+    {
+        "key": "other_4",
+        "ad_config": { "text": "📚 Batch 4: Coaching Classes - New Enrollment Open", "link": "https://coaching.com", "bg": "#eef2ff", "color": "#4338ca" }, "app_code": ""
+    },
+    {
+        "key": "other_5",
+        "ad_config": { "text": "🔌 Batch 5: Local Electrician Services - Book Now", "link": "https://services.com", "bg": "#f7fee7", "color": "#3f6212" }, "app_code": ""
+    }
         ]
-        
+    
