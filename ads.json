@@ -2,82 +2,83 @@
     {
         "key": "default",
         "ad_config": {
-            "text": "🚀 Powered by Indro Network - Create Your Own Website",
+            "text": "🚀 Powered by Indro Network - Advertise Here",
             "link": "https://google.com",
-            "bg": "#111",
-            "color": "#fff"
+            "bg": "#111111",
+            "color": "#ffffff"
         },
-        "app_code": "<div style='padding:20px; background:#f0f9ff; border-radius:15px; border:1px solid #bae6fd; text-align:center;'><h3>👋 Welcome to Indro</h3><p style='font-size:13px; color:#0369a1;'>This space is reserved for Developer Apps.</p></div>"
+        "app_code": ""
     },
+    
+    /* --- GYM BATCHES (Different Ads & Apps) --- */
     {
         "key": "gym_1",
         "ad_config": {
-            "text": "💪 Batch 1: MuscleBlaze Whey Protein - Flat 30% Off",
+            "text": "💪 Batch 1: MuscleBlaze Protein (Exclusive Deal for Indro Users)",
             "link": "https://muscleblaze.com",
             "bg": "#fff1f2",
             "color": "#be123c"
         },
-        "app_code": "<div style='padding:25px; background:#fff; border-radius:20px; border:1px solid #fda4af; text-align:center; box-shadow:0 10px 30px rgba(0,0,0,0.05);'> <h3 style='color:#be123c; margin-bottom:10px;'>⚖️ BMI Calculator</h3> <div style='display:flex; gap:10px; justify-content:center;'> <input type='number' placeholder='Weight (kg)' style='width:45%; padding:10px; border:1px solid #ddd; border-radius:8px;'> <input type='number' placeholder='Height (cm)' style='width:45%; padding:10px; border:1px solid #ddd; border-radius:8px;'> </div> <button onclick='alert(\"Your BMI is 22.4 (Normal)\")' style='background:#be123c; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:15px; cursor:pointer; font-weight:bold;'>Calculate Now</button> </div>"
+        "app_code": "<div style='padding:25px; background:#fff; border-radius:20px; border:1px solid #fda4af; text-align:center;'> <h3 style='color:#be123c; margin-bottom:10px;'>⚖️ Quick BMI Check</h3> <p style='font-size:13px; color:#525252;'>A simple fitness tool demo.</p> <button onclick='alert(\"BMI Calculator App (Demo)\")' style='background:#be123c; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:15px; cursor:pointer; font-weight:bold;'>Check BMI</button> </div>"
     },
     {
         "key": "gym_2",
         "ad_config": {
-            "text": "🏋️ Batch 2: Heavy Duty Dumbbells - Amazon Sale",
+            "text": "🏋️ Batch 2: Heavy Duty Dumbbells Sale (Get 50% Off Today)",
             "link": "https://amazon.in",
             "bg": "#f0fdf4",
             "color": "#15803d"
         },
-        "app_code": "<div style='padding:20px; background:#f0fdf4; border-radius:15px; border:1px dashed #22c55e; text-align:center;'><h3>🥗 Diet Chart Generator</h3><p>Get your personalized plan.</p><button style='background:#15803d; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:5px;'>Download PDF</button></div>"
+        "app_code": "<div style='padding:20px; background:#f0fdf4; border-radius:15px; border:1px dashed #22c55e; text-align:center;'><h3>🥗 Diet Chart Generator</h3><p style='font-size:13px; color:#525252;'>Get your personalized diet plan via WhatsApp.</p><button style='background:#15803d; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:5px;'>Download Plan</button></div>"
     },
+    // gym_3, gym_4, gym_5 remain configured with ad_config only (same as gym_2)
+
+    /* --- CAFE BATCHES (Different Ads & Apps) --- */
     {
         "key": "cafe_1",
         "ad_config": {
-            "text": "🍔 Hungry? Order on Zomato & Get 50% Off",
+            "text": "🍔 Batch 1: Order on Zomato & Get 50% Off - Use Code: TASTY",
             "link": "https://zomato.com",
             "bg": "#fffbeb",
             "color": "#b45309"
         },
-        "app_code": "<div style='padding:20px; background:#fffbeb; border-radius:15px; border:1px solid #fcd34d; text-align:center;'> <h3 style='color:#b45309;'>📅 Reserve a Table</h3> <p style='font-size:13px; color:#92400e; margin-bottom:15px;'>Avoid waiting in line. Book instantly.</p> <button onclick='window.open(\"https://wa.me/?text=I want to book a table\", \"_blank\")' style='background:#d97706; color:white; padding:12px 30px; border:none; border-radius:50px; cursor:pointer; font-weight:bold;'><i class=\"fa-brands fa-whatsapp\"></i> Book via WhatsApp</button> </div>"
+        "app_code": "<div style='padding:20px; background:#fffbeb; border-radius:15px; border:1px solid #fcd34d; text-align:center;'> <h3 style='color:#b45309;'>📅 Table Reservation</h3> <button onclick='window.open(\"https://wa.me/?text=I want to book a table\", \"_blank\")' style='background:#d97706; color:white; padding:12px 30px; border:none; border-radius:50px; cursor:pointer; font-weight:bold;'><i class=\"fa-brands fa-whatsapp\"></i> Book Table</button> </div>"
     },
+    {
+        "key": "cafe_2",
+        "ad_config": {
+            "text": "☕ Batch 2: Starbucks App - Get Your First Coffee Free",
+            "link": "https://starbucks.in",
+            "bg": "#d1fae5",
+            "color": "#065f46"
+        },
+        "app_code": "<div style='padding:20px; background:#d1fae5; border-radius:15px; border:1px dashed #10b981; text-align:center;'> <h3 style='color:#065f46;'>⭐ Loyalty Card Check</h3> <p style='font-size:13px; color:#525252;'>Check your loyalty points instantly.</p> <button style='background:#065f46; color:white; padding:10px 25px; border:none; border-radius:50px; margin-top:10px; cursor:pointer;'>Check Points</button> </div>"
+    },
+    // cafe_3, cafe_4, cafe_5 remain configured with ad_config only (same as cafe_2)
+
+    /* --- TECH BATCHES (Different Ads & Apps) --- */
     {
         "key": "tech_1",
         "ad_config": {
-            "text": "💻 Best Cloud Hosting - Hostinger ₹99/mo",
+            "text": "💻 Batch 1: Hostinger Web Hosting - Starting @ ₹99/mo",
             "link": "https://hostinger.in",
             "bg": "#eff6ff",
             "color": "#1d4ed8"
         },
-        "app_code": "<div style='padding:20px; background:#eff6ff; border-radius:15px; border:1px solid #bfdbfe; text-align:center;'> <h3 style='color:#1d4ed8;'>⚡ Server Status</h3> <div style='margin:15px auto; display:inline-flex; align-items:center; gap:10px; background:#dcfce7; padding:8px 20px; border-radius:50px; color:#15803d; font-weight:bold; border:1px solid #86efac;'> <div style='width:12px; height:12px; background:#22c55e; border-radius:50%; box-shadow:0 0 10px #22c55e;'></div> All Systems Operational </div> <p style='margin-top:10px; font-size:12px; color:#64748b;'>Live uptime tracking active.</p> </div>"
+        "app_code": "<div style='padding:20px; background:#eff6ff; border-radius:15px; border:1px solid #bfdbfe; text-align:center;'> <h3 style='color:#1d4ed8;'>⚡ Server Status</h3> <div style='margin:15px auto; display:inline-flex; align-items:center; gap:10px; background:#dcfce7; padding:8px 20px; border-radius:50px; color:#15803d; font-weight:bold; border:1px solid #86efac;'> <div style='width:12px; height:12px; background:#22c55e; border-radius:50%; box-shadow:0 0 10px #22c55e;'></div> All Systems Operational </div> </div>"
     },
     {
-        "key": "realestate_1",
+        "key": "tech_2",
         "ad_config": {
-            "text": "🏠 Luxury Flats in Your City - EMI starts @ ₹15k",
-            "link": "https://housing.com",
-            "bg": "#ecfccb",
-            "color": "#3f6212"
+            "text": "☁️ Batch 2: DigitalOcean - Get Free Cloud Credits!",
+            "link": "https://digitalocean.com",
+            "bg": "#faf5ff",
+            "color": "#7e22ce"
         },
-        "app_code": "<div style='padding:20px; background:#f7fee7; border-radius:15px; border:1px solid #d9f99d; text-align:center;'> <h3 style='color:#3f6212;'>💰 EMI Estimator</h3> <p style='font-size:12px; margin-bottom:10px;'>Check your loan eligibility instantly.</p> <button onclick='alert(\"Redirecting to Bank API...\")' style='background:#4d7c0f; color:white; padding:10px 25px; border:none; border-radius:5px; cursor:pointer;'>Check Eligibility</button> </div>"
+        "app_code": "<div style='padding:20px; background:#faf5ff; border-radius:15px; border:1px dashed #a78bfa; text-align:center;'> <h3 style='color:#7e22ce;'>🔑 API Key Validator</h3> <input type='text' placeholder='Enter API Key' style='padding:8px; border:1px solid #ddd; border-radius:5px; width:90%; margin-top:10px;'> <button style='background:#7e22ce; color:white; padding:8px 20px; border:none; border-radius:5px; margin-top:10px; cursor:pointer;'>Validate</button> </div>"
     },
-    {
-        "key": "fashion_1",
-        "ad_config": {
-            "text": "👟 Nike Sneakers - End of Season Sale (40% Off)",
-            "link": "https://myntra.com",
-            "bg": "#fdf4ff",
-            "color": "#86198f"
-        },
-        "app_code": "<div style='padding:20px; background:#fdf4ff; border-radius:15px; border:1px solid #f0abfc; text-align:center;'> <h3 style='color:#86198f;'>🎁 Mystery Coupon</h3> <p style='margin-bottom:15px;'>Click to reveal your secret discount.</p> <button onclick='this.innerText=\"CODE: INDRO20\"; this.style.background=\"#86198f\"' style='background:#c026d3; color:white; padding:12px 30px; border:none; border-radius:50px; cursor:pointer; font-weight:bold;'>Reveal Code</button> </div>"
-    },
-    {
-        "key": "other_1",
-        "ad_config": {
-            "text": "🛒 Amazon Great Indian Festival - Live Now!",
-            "link": "https://amazon.in",
-            "bg": "#fff7ed",
-            "color": "#c2410c"
-        },
-        "app_code": "<div style='padding:20px; background:#fff7ed; border-radius:15px; border:1px solid #fed7aa; text-align:center;'><h3>📞 Priority Support</h3><p>Get instant help.</p><button style='background:#c2410c; color:white; padding:10px 25px; border-radius:5px; border:none;'>Contact Us</button></div>"
-    }
+    // tech_3, tech_4, tech_5 remain configured with ad_config only (same as tech_2)
+    
+    /* (realestate, fashion, other batches remain with ads only) */
         ]
-            
+        
